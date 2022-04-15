@@ -1,3 +1,6 @@
+/* html{
+  font-size: 5px;
+} */
 .btn1{
   border-radius: 4px;
   color: #5856CE;
@@ -82,7 +85,7 @@
   border: 1px solid #5856CE;
   background-color: #5856CE;
   border-radius: 4px;
-  padding: 8px; 
+  padding: 8px;
  }
 
  .button{
@@ -128,7 +131,6 @@
   padding-left: 24px;
   letter-spacing: 0.01em;
   color: #120155;
-  padding-top: 5%
 }
 .card-des{
  font-family: 'Poppins';
@@ -277,7 +279,7 @@
   .main-img{
     text-align: center;
     width: 60%;
-    padding-top: 5%;
+    padding-top: 10%;
   }
   .sec2-para{
     padding: 0 3% 0 3%;
@@ -292,14 +294,21 @@
   .l-block{
    width: auto;
    margin: 0 5% 0 5%;
-   padding-top: 5%;
+   padding-top: 10%;
   }
   .carousel-block{
     flex-flow: column;
     flex-direction: column-reverse;
     align-items: center;
   }
-  
+  /* .user-1{
+    right: 0%;
+    top: 150px;
+  }
+  .background{
+    left: 15%;
+    bottom: 211px;
+  } */
   .sec3{
     margin: 0 3% 0 3%;
   }
@@ -316,34 +325,35 @@
     padding-top: 15px;
   }
   .left-nav{
-    /*width: 100%;
-    justify-content: flex-start;*/
+    width: 100%;
+    justify-content: flex-start;
     position:relative;
-    /* right: 5%; */
-    /*left: 5%;*/
+    /* left: 5%; */
   }
 
   .right-nav{
-    /* width: 100%;
-    justify-content: flex-start; */
-    /* padding-right: 47%; */
-    left: 0%;
-}
-  
+    width: 100%;
+    justify-content: flex-start;
+    left: 5%;
+  }
   .nav-text{
     padding-left: 30px !important;
   }
 
 }
 
-@media(max-width: 992px){
+@media(max-width: 993px){
 
 .user-1{
-  position: relative;
-  left: 0% !important;
+  left: 0%;
   top: 30px;
-  /*width: 100%;*/
+  width: 100%;
   text-align: center;
+}
+
+.right-nav{
+  width: max-content;
+  left: 0px;
 }
 
 }
@@ -366,3 +376,6 @@
 
 
   } */
+
+
+
